@@ -1,0 +1,12 @@
+{
+    "name": "bobet/backend",
+    "authors": [
+        {
+            "name": "LearnerVas",
+            "email": "sorrowamv@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ISPSC E-Queue Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h2>ISPSC E-Queue Login</h2>
+
+  <label>User Type</label><br>
+  <select id="type">
+    <option value="old">Old Student</option>
+    <option value="new">First-time Enrollee</option>
+    <option value="guest">Guest</option>
+  </select>
+
+  <br><br>
+
+  <label>Gmail</label><br>
+  <input type="email" id="gmail" placeholder="example@gmail.com" required>
+
+  <br><br>
+
+  <label>Student ID (Old Students only)</label><br>
+  <input type="text" id="id" placeholder="NLP-00-00000">
+
+  <br><br>
+
+  <button onclick="login()">Login</button>
+
+  <script src="js/login.js"></script>
+
+</body>
+</html>
